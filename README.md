@@ -1,12 +1,14 @@
 # 📊 OLA Ride Booking Data Analysis
 
-![Dashboard Preview](images/overall.png)
+## 📊 Dashboard Preview
 
----
+![Dashboard](images/overall.png)
+
+The project follows a structured data analytics workflow from data preparation to insight generation.
 
 ## 📌 Problem Statement
 
-Analyze ride booking data to identify demand patterns, cancellation drivers, customer behavior, and revenue opportunities to improve operational efficiency.
+This project analyzes ride booking data to identify demand patterns, cancellation drivers, customer behavior, and revenue opportunities to improve operational efficiency.
 
 ---
 
@@ -79,9 +81,14 @@ Analyze ride booking data to identify demand patterns, cancellation drivers, cus
 - Success Rate (%)
 - Cancellation Rate (%)
 - Revenue by Vehicle Type
+- Average Booking Value
 - Average Ride Distance
 
 ---
+
+## 📈 Key Findings Summary
+
+- 📈 Ride demand shows clear variation across time, indicating peak usage periods and potential supply-demand imbalance
 
 ## 🔍 Key Insights
 
@@ -125,3 +132,20 @@ Analyze ride booking data to identify demand patterns, cancellation drivers, cus
 ---
 
 ## 📁 Project Structure
+
+- **data/**
+  - Contains the final dataset with realistic variations (weekend demand, cancellations, pricing)
+
+- **sql/**
+  - SQL queries and views used to solve business problems and extract insights
+
+- **dashboard/**
+  - Power BI dashboard file with interactive visualizations and KPIs
+
+- **images/**
+  - Dashboard screenshots used for preview and documentation
+
+- **README.md**
+  - Project documentation including business problems, insights, and recommendations
+
+
