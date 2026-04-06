@@ -86,7 +86,7 @@ Analyze ride booking data to identify demand patterns, cancellation drivers, and
 ---
 ### 📊 Dashboard Preview
 
-![Overview](images/overview.png)
+![Overview](images/overall.png)
 
 ![Revenue](images/revenue.png)
 
@@ -101,4 +101,4 @@ Analyze ride booking data to identify demand patterns, cancellation drivers, and
 
 ---
 
-## 📁 Project Structure
+
