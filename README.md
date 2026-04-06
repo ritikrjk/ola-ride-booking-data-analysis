@@ -1,6 +1,6 @@
 # 📊 OLA Ride Booking Data Analysis
 
-![Dashboard Preview](images/overview.png)
+![Dashboard Preview](images/overall.png)
 
 ---
 
@@ -120,7 +120,7 @@ Analyze ride booking data to identify demand patterns, cancellation drivers, cus
 
 ## 🎥 Dashboard Demo
 
-[![Watch Demo](images/overview.png)](https://drive.google.com/file/d/1szjri-fZ6qGKTXZJQjFMIht-zJwcMy7B/view?usp=sharing)
+[![Watch Demo](images/overall.png)](https://drive.google.com/file/d/1szjri-fZ6qGKTXZJQjFMIht-zJwcMy7B/view?usp=sharing)
 
 ---
 
