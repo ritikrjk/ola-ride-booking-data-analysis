@@ -7,6 +7,7 @@ This project analyzes ride booking data to identify customer behavior, cancellat
 SQL (MySQL)
 Power BI
 Python (for data generation and variation)
+
 📂 Dataset
 100,000+ ride booking records
 Includes booking status, vehicle type, distance, payment method, and ratings
