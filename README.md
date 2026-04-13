@@ -125,9 +125,11 @@ This project analyzes ride booking data to identify demand patterns, cancellatio
 
 ---
 
-## 🎥 Dashboard Demo
 
-[![Watch Demo](images/overall.png)](https://drive.google.com/file/d/1szjri-fZ6qGKTXZJQjFMIht-zJwcMy7B/view?usp=sharing)
+## 🎥 Interactive Dashboard Demo
+[Watch the Demo Video](https://drive.google.com/file/d/1szjri-fZ6qGKTXZJQjFMIht-zJwcMy7B/view?usp=sharing)
+
+
 
 ---
 
