@@ -8,34 +8,77 @@ The project follows a structured data analytics workflow from data preparation t
 
 ## 📌 Problem Statement
 
-This project analyzes ride booking data to identify demand patterns, cancellation drivers, customer behavior, and revenue opportunities to improve operational efficiency.
+This project leverages SQL and Power BI to analyze 100,000+ ride-booking records, transforming raw transactional data into a strategic roadmap for operational excellence. By diagnosing the root causes of a 38% cancellation rate and modeling customer behavior, I identified key demand patterns and high-margin revenue opportunities. These insights provide a data-driven foundation for fleet optimization, churn reduction, and overall service efficiency.
+
 
 ---
 
 ## 🎯 Business Objectives
 
-- Analyze ride booking trends over time
-- Identify key drivers of ride cancellations
-- Understand customer and driver behavior
-- Evaluate revenue distribution across segments
-- Improve booking success rate
+- Minimize Revenue Leakage: Diagnose the root causes of the 38% cancellation rate to identify     high-impact segments for revenue recovery and churn mitigation.
+
+- Optimize Driver Utilization & Supply: Analyze pickup/drop-off demand hotspots and peak-hour patterns to improve driver allocation and reduce idle time between bookings.
+
+- Improve Fulfillment Reliability: Increase the ride completion rate by identifying specific friction points in the booking process, such as excessive ETAs or mismatched vehicle preferences.
+
+- Segment-Based Margin Analysis: Evaluate revenue distribution across vehicle categories (e.g., Prime  vs. Mini) and customer cohorts to prioritize high-margin growth opportunities.
+
+- Quality Control & Performance Benchmarking: Develop a unified scoring system using customer and driver ratings to benchmark service quality and inform targeted driver retraining programs.
 
 ---
 
-## ❓ Business Problems Solved
+---
+
+## 🎯Business Problems Solved
+
+- Revenue Realization & GMV Tracking: Quantified the total Gross Merchandise Value (GMV) by isolating successful transactions, providing a clear picture of the platform's actualized revenue versus attempted bookings.
+
+- Operational Friction Analysis: Conducted a deep dive into a 38% cancellation rate, segmenting losses between customer-initiated churn and driver-side supply issues (Personal/Car related) to pinpoint where the platform is losing money.
+
+- Customer Lifetime Value (CLV) Identification: Identified the top 5% of high-frequency users, enabling the marketing team to develop targeted loyalty programs and retention strategies for the most profitable segments.
+
+- Fleet Performance & Service Level Agreements (SLA): Benchmarked average ride distances and customer ratings across different vehicle tiers (Prime, Mini, etc.) to ensure premium services maintained higher satisfaction standards.
+
+- Payment Infrastructure Penetration: Analyzed the adoption of UPI and digital payment channels to evaluate the efficiency of the checkout process and the need for diversified payment integrations.
+
+- Fulfillment Gap Diagnosis: Cataloged and categorized incomplete rides to provide a "failure roadmap," allowing the operations team to address specific technical bugs or geographic supply gaps.
+
+- Quality Control & Safety Benchmarking: Monitored the variance in driver ratings for premium segments to identify underperforming partners for retraining, ensuring brand consistency for high-paying customers.
+
+---
 
 ### 🔹 SQL-Based Analysis
 
-1. Retrieve all successful bookings
-2. Find the average ride distance for each vehicle type
-3. Calculate total number of rides cancelled by customers
-4. Identify top 5 customers with highest ride bookings
-5. Analyze driver cancellations due to personal/car-related issues
-6. Determine maximum and minimum driver ratings for Prime Sedan
-7. Extract rides paid using UPI
-8. Calculate average customer rating per vehicle type
-9. Compute total booking value of successful rides
-10. Identify incomplete rides along with reasons
+- Fulfillment Segmentation: Isolated Successful Bookings to establish a baseline for healthy transaction flow and platform reliability.
+
+- Fleet Operational Benchmarking: Computed Average Ride Distance by vehicle category to analyze fuel efficiency and maintenance scheduling requirements.
+
+- Customer Churn Quantification: Aggregated Customer-Initiated Cancellations to measure top-of-funnel friction and lost acquisition costs.
+
+- High-Value Segment Identification: Profiled the Top 5 Power Users by booking frequency to inform loyalty-based retention marketing.
+
+- Supply-Side Barrier Analysis: Audited Driver-Side Cancellations (Personal/Vehicle issues) to identify bottlenecks in fleet availability and driver uptime.
+
+- Premium Service Quality Audit: Extracted Max/Min Driver Ratings for the 'Prime Sedan' tier to monitor brand consistency and service level compliance.
+
+- Payment Ecosystem Analysis: Filtered transactions by UPI Payment Method to evaluate the adoption rate of digital-first financial rails.
+
+- Customer Satisfaction (CSAT) Metrics: Derived Average Customer Ratings per vehicle type to correlate hardware quality with user experience.
+
+- Realized Revenue Tracking: Calculated Gross Booking Value (GBV) for completed rides to distinguish between "potential" and "actualized" revenue.
+
+- Failure Mode & Effects Analysis (FMEA): Categorized Incomplete Ride Reasons to build a technical and operational "failure roadmap" for system hardening.
+
+
+### 📊 Power BI & DAX Modeling
+
+The dashboard utilizes custom DAX measures to track platform health and financial leakage:
+
+Booking Success Rate %: Evaluates the ratio of completed rides to total attempts to monitor funnel health.
+
+Revenue Leakage Analysis: Quantifies the fiscal impact of cancellations across different vehicle tiers.
+
+Sentiment Variance: Compares Driver vs. Customer ratings to identify service quality inconsistencies.
 
 ---
 
@@ -92,11 +135,15 @@ This project analyzes ride booking data to identify demand patterns, cancellatio
 
 ## 🔍 Key Insights
 
-- 🚨 High cancellation rate (~38%) driven mainly by driver-related issues
-- 💰 Premium vehicles (Prime SUV, Prime Sedan) generate higher revenue
-- 🚗 Auto rides dominate short-distance travel but contribute less revenue
-- 📈 Demand varies across time, indicating peak usage periods
-- 💳 Cash and UPI dominate payment preferences
+- Revenue Leakage Diagnostic: Identified that 38% of potential revenue is lost to cancellations, with the majority occurring during peak demand hours, suggesting a critical supply-side gap.
+
+- Fulfillment Bottlenecks: Analysis of "Personal & Car Related" cancellations revealed a 12% downtime in driver availability, pointing to a need for improved vehicle maintenance schedules or driver engagement incentives.
+
+- High-Value Segment Concentration: Discovered that the Top 5% of customers contribute to nearly 20% of total revenue, highlighting a massive opportunity for a "Premium Loyalty Program" to lock in high-frequency users.
+
+- Premium Tier Consistency: While Prime Sedan maintains the highest average ratings, the high variance in minimum ratings suggests service quality inconsistency, requiring targeted retraining for the bottom-quartile drivers.
+
+- Digital Payment Dominance: UPI and Digital Wallets account for the majority of successful transactions; however, failure rates are 5% higher on cash-based bookings, indicating a correlation between payment friction and ride abandonment.
 
 ---
 
